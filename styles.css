@@ -61,3 +61,62 @@ li a:hover{
       text-align: center;
     }
   }
+
+  #welcome-section {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100vh;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
+
+  h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  #welcome-section p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    padding:0.5rem
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    background-color: #2f2626;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 1rem;
+  }
+
+  footer a {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 2rem;
+    color: cornflowerblue;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: aquamarine;
+  }
